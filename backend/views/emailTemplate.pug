@@ -1,0 +1,78 @@
+doctype html
+html
+  head
+    style.
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      .header {
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #dddddd;
+        background-color: #007bff;
+        color: white;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .header h1 {
+        margin: 0;
+        padding: 20px 0;
+      }
+      .content {
+        padding: 20px;
+        line-height: 1.6;
+        color: #333333;
+      }
+      .content p {
+        margin: 0 0 10px;
+      }
+      .content p strong {
+        display: inline-block;
+        width: 120px;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9em;
+        color: #666666;
+        border-top: 1px solid #dddddd;
+        background-color: #f4f4f4;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+  body
+    .container
+      .header
+        h1 Contact Form Submission
+      .content
+        p
+          strong First Name: 
+          | #{firstname}
+        p
+          strong Last Name: 
+          | #{lastname}
+        p
+          strong Email: 
+          | #{email}
+        p
+          strong Phone: 
+          | #{phone}
+        p
+          strong Subject: 
+          | #{subject}
+        p
+          strong Message: 
+          | #{message}
+      
